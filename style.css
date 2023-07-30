@@ -1,0 +1,113 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+header{
+    position: relative;
+}
+h1{
+    text-align: center;
+    margin-top: 250px;
+}
+.again{
+    position: absolute;
+    top: -70%;
+    left: 10%;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+}
+.between{
+    position: absolute;
+    top: -80%;
+    right: 10%;
+}
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+/* .number{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    width: 50px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    transform: translateX(150px);
+} */
+
+.guess{
+    position: absolute;
+    left: 20%;
+    margin-top: 30px;
+    padding: 5px;
+    width: 70px;
+    height: 20px;
+    outline: none;
+
+}
+ 
+.right{
+    position: relative;
+}
+.message{
+    position: absolute;
+    right: 20%;
+}
+.label-score{
+    position: absolute;
+    right: 20%;
+    top: 60%;
+    margin-top: 60px;
+}
+.label-highscore{
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    margin-top: 90px;
+}
+.check{
+    position: absolute;
+    top: 60%;
+    margin-top: 20px;
+    left: 20%;
+    padding: 10px;
+    width: 70px;
+}
+
+
+
+
+
+/* 
+main{
+    display: flex;
+    
+    align-items: center;
+ }
+
+ main .right{
+    margin-left: 20px;
+ }
+ main .left{
+    margin-right: 40px;
+ }
+ .guess{
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 20px;
+ }
+ .check{
+    width: 80px;
+    height: 30px;
+    padding: 10px;
+ } */
